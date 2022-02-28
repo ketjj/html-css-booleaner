@@ -1,3 +1,5 @@
+/* GENERAL selectors */
+
 *{
   margin: 0;
   padding: 0;
@@ -5,8 +7,10 @@
 }
 
 body {
+  color: black;
 
 }
+/* ID selectors */
 
 #logo {
   width: 140px;
@@ -14,6 +18,45 @@ body {
   margin-left: 10%;
   padding-top: 4%;
 }
+
+#container{
+  position: absolute;
+  margin-left: 30%;
+  margin-top: 10px;
+  width: 40%;
+  height: 100%;
+}
+
+#photogallery{
+  position: relative;
+  width: 100%;
+  height: 90%;
+  margin-top: 8px;
+}
+
+/* CLASS selectors */
+
+.comment, .data1 {
+  color: #808080;
+}
+.data1, .photosby {
+  font-size: 12px;
+}
+.thebooleanertext {
+  color: #20a9e5;
+}
+.row {
+  display: flex;
+}
+.column {
+  flex: 50%;
+  padding: 5px;
+}
+.img2 {
+  margin-left: 5px;
+}
+
+/* HEADER */
 
 header {
   width: 50%;
@@ -25,3 +68,4 @@ header {
   background-size: 280px 150px;
   background-repeat: repeat;
 }
+
