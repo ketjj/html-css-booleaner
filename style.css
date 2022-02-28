@@ -37,7 +37,7 @@ body {
 
 /* CLASS selectors */
 
-.comment, .data1 {
+.comment, .data1, .footnote{
   color: #808080;
 }
 .data1, .photosby {
@@ -118,3 +118,6 @@ h1 {
   font-weight: bolder;
 }
 
+.footnote {
+  font-weight: 700;
+}
