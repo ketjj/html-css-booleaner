@@ -8,7 +8,7 @@
 
 body {
   color: black;
-
+  font-size: 14px;
 }
 /* ID selectors */
 
@@ -25,6 +25,7 @@ body {
   margin-top: 10px;
   width: 40%;
   height: 100%;
+  font-weight: 500;
 }
 
 #photogallery{
@@ -55,7 +56,19 @@ body {
 .img2 {
   margin-left: 5px;
 }
+.second-section {
+  width: 110%;
+}
+.tabella {
+  margin-left: 2%; 
+}
 
+.second-section {
+  margin-top: 13px;
+}
+.tabella {
+  margin-top: 20px;
+}
 /* HEADER */
 
 header {
@@ -69,3 +82,6 @@ header {
   background-repeat: repeat;
 }
 
+h1 {
+  font-weight: bolder;
+}
