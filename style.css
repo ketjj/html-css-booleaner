@@ -66,9 +66,41 @@ body {
 .second-section {
   margin-top: 13px;
 }
-.tabella {
+.tabella, .rows, #third-section, p {
   margin-top: 20px;
 }
+.marker {
+  background-color: yellow;
+}
+/* head rows */
+#third-section {
+  text-align: left;
+  box-sizing: border-box;
+}
+.list {
+  background-color: #20a9e5;
+  color: white;
+  width: 105%; 
+}
+table, tr, td {
+  border-collapse: collapse;
+}
+/* body rows */
+.whiterow {
+  background-color: #FFFFFF;
+} 
+.lightbluerow { 
+  background-color: #b1e5f2;
+  width: 105%;
+  height: 50px;
+  padding-left: 10px;
+  text-align: left;
+  padding: 2px;
+  box-sizing: border-box;
+  color: black;
+}
+
+
 /* HEADER */
 
 header {
@@ -85,3 +117,4 @@ header {
 h1 {
   font-weight: bolder;
 }
+
